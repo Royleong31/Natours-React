@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+header.header {
+	height: 95vh;
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	position: relative;
+
+	background: linear-gradient(
+			to right bottom,
+			rgba($color-primary-light, 0.8),
+			rgba($color-primary-dark, 0.8)
+		),
+		url("../../../img/hero.jpg") center / cover;
+
+	.header {
+		&__logo {
+			position: absolute;
+			height: 3.5rem;
+			top: 4rem;
+			left: 4rem;
+		}
+
+		&__text-box {
+			position: absolute;
+			top: 45%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+	}
+}

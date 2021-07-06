@@ -1,0 +1,59 @@
+body {
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+	color: $color-grey-dark;
+}
+
+.heading-primary {
+	text-transform: uppercase;
+	color: white;
+
+	&__main {
+		font-size: 6rem;
+		letter-spacing: 3.5rem;
+		font-weight: 400;
+		display: block;
+		animation: moveInLeft 0.8s ease;
+	}
+
+	&__sub {
+		display: block;
+		letter-spacing: 1.3rem;
+		font-weight: 700;
+		font-size: 2rem;
+		margin-bottom: 6rem;
+		animation: moveInRight 0.8s ease;
+	}
+}
+
+.heading-secondary {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	// ?: These 3 give the text a color gradient
+	background: linear-gradient(to bottom right, $color-primary-light, $color-primary-dark);
+	color: transparent;
+	background-clip: text;
+
+	display: inline-block;
+
+	&:hover {
+		transform: skew(2deg, 2deg) scale(1.1);
+	}
+}
+
+.heading-tertiary {
+	font-size: $default-font-size;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.paragraph {
+	font-size: $default-font-size;
+
+	&:not(:last-child) {
+		margin-bottom: 3rem;
+	}
+}

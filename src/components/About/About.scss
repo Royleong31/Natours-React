@@ -1,0 +1,63 @@
+@import "./variables.scss";
+
+section.about {
+	padding: 25rem 0;
+	background-color: $color-grey-light;
+	margin-top: -20vh;
+	width: 100%;
+
+	display: grid;
+	place-content: center;
+
+	.about {
+		&__container {
+			max-width: 120rem;
+			margin: 0 5rem;
+
+			display: grid;
+			gap: 1.5rem;
+			grid-template-columns: repeat(2, 1fr);
+			align-items: start;
+			justify-items: start;
+		}
+
+		&__photos-container {
+			justify-content: center;
+			grid-column: 2 / span 1;
+			grid-row: 1 / 6;
+			position: relative;
+			justify-self: stretch;
+			align-self: stretch;
+		}
+
+		&__photo {
+			width: 55%;
+			position: absolute;
+			z-index: 1;
+			box-shadow: 0 1.5rem 4rem rgba(black, 0.4);
+			transition: all 0.2s;
+			outline-offset: 1.5rem;
+
+			&:hover {
+				transform: translateX(-1rem) scale(1.05);
+				z-index: 2;
+				outline: 1.1rem solid $color-primary;
+			}
+
+			&-1 {
+				top: -3rem;
+				left: 5rem;
+			}
+
+			&-2 {
+				top: 2rem;
+				right: -2rem;
+			}
+
+			&-3 {
+				bottom: 4rem;
+				left: 25%;
+			}
+		}
+	}
+}
