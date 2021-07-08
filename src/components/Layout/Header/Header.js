@@ -15,7 +15,7 @@ export default function Header() {
 					<span className="heading-primary__sub">is where life happens</span>
 				</h1>
 				<Button address="#" animated white>
-					Discover our tours
+					Explore our tours
 				</Button>
 			</div>
 		</header>

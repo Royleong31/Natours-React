@@ -7,7 +7,7 @@ import img3 from "../../img/nat-3-large.jpg";
 
 export default function About() {
 	return (
-		<section class="about">
+		<section className="about">
 			<div className="u-center-text u-margin-bottom-big">
 				<h2 className="heading-secondary">Exciting tours for adventurous people</h2>
 			</div>

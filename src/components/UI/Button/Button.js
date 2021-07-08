@@ -1,6 +1,6 @@
 import styles from "./Button.module.scss";
 
-export default function Button({ children, address, animated, primary, white }) {
+export default function Button({ children, address, animated, primary, white, onClick }) {
 	const classes = [styles["btn"]];
 
 	if (animated) classes.push(styles["btn--animated"]);
@@ -11,7 +11,7 @@ export default function Button({ children, address, animated, primary, white }) 
 	}
 
 	return (
-		<a href={address} className={classes.join(" ")}>
+		<a href={address} onClick={onClick} className={classes.join(" ")}>
 			{children}
 		</a>
 	);

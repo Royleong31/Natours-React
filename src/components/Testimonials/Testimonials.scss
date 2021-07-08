@@ -1,0 +1,69 @@
+@import "./variables.scss";
+
+section.testimonials {
+	padding: 15rem 0;
+	position: relative;
+
+	display: grid;
+	place-content: center;
+	grid-template-rows: repeat(3, min-content);
+	grid-template-columns: minmax(60rem, 80rem);
+	justify-items: center;
+	row-gap: 8rem;
+	font-size: $default-font-size;
+
+	.testimonial {
+		padding: 6rem;
+		padding-left: 8rem;
+		transform: skewX(-12deg);
+		background-color: rgba(white, 0.65);
+		box-shadow: 0 3rem 6rem rgba(black, 0.15);
+
+		> * {
+			transform: skewX(12deg);
+		}
+
+		&__shape {
+			height: 15rem;
+			width: 15rem;
+			float: left;
+			clip-path: circle(50% at 50% 50%);
+			shape-outside: circle(50% at 50% 50%);
+			position: relative;
+			transform: translateX(-3rem) skewX(12deg);
+		}
+
+		&__img {
+			height: 100%;
+			transform: scale(1.4) translateX(-4rem);
+			transition: all 0.5s;
+		}
+
+		&__caption {
+			text-transform: uppercase;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -10%);
+			transition: all 0.5s;
+			opacity: 0;
+			text-align: center;
+			z-index: 2;
+			color: white;
+		}
+
+		&__text {
+			// transform: translateX(1rem) skewX(12deg);
+		}
+
+		&:hover .testimonial__img {
+			transform: scale(1) translateX(0);
+			filter: blur(3px) brightness(80%);
+		}
+
+		&:hover .testimonial__caption {
+			opacity: 1;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
