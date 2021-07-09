@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Natours-React/static/css/main.04e5d31d.chunk.css",
-    "main.js": "/Natours-React/static/js/main.3cb34022.chunk.js",
-    "main.js.map": "/Natours-React/static/js/main.3cb34022.chunk.js.map",
+    "main.css": "/Natours-React/static/css/main.fcbefa74.chunk.css",
+    "main.js": "/Natours-React/static/js/main.bca57511.chunk.js",
+    "main.js.map": "/Natours-React/static/js/main.bca57511.chunk.js.map",
     "runtime-main.js": "/Natours-React/static/js/runtime-main.5e108c41.js",
     "runtime-main.js.map": "/Natours-React/static/js/runtime-main.5e108c41.js.map",
-    "static/js/2.1daf1e80.chunk.js": "/Natours-React/static/js/2.1daf1e80.chunk.js",
-    "static/js/2.1daf1e80.chunk.js.map": "/Natours-React/static/js/2.1daf1e80.chunk.js.map",
+    "static/js/2.9299f61a.chunk.js": "/Natours-React/static/js/2.9299f61a.chunk.js",
+    "static/js/2.9299f61a.chunk.js.map": "/Natours-React/static/js/2.9299f61a.chunk.js.map",
     "index.html": "/Natours-React/index.html",
-    "static/css/main.04e5d31d.chunk.css.map": "/Natours-React/static/css/main.04e5d31d.chunk.css.map",
-    "static/js/2.1daf1e80.chunk.js.LICENSE.txt": "/Natours-React/static/js/2.1daf1e80.chunk.js.LICENSE.txt",
+    "static/css/main.fcbefa74.chunk.css.map": "/Natours-React/static/css/main.fcbefa74.chunk.css.map",
+    "static/js/2.9299f61a.chunk.js.LICENSE.txt": "/Natours-React/static/js/2.9299f61a.chunk.js.LICENSE.txt",
     "static/media/Header.scss": "/Natours-React/static/media/hero.15e5f60e.jpg",
     "static/media/logo-green-2x.76177450.png": "/Natours-React/static/media/logo-green-2x.76177450.png",
     "static/media/logo-white.6c89a3f0.png": "/Natours-React/static/media/logo-white.6c89a3f0.png",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5e108c41.js",
-    "static/js/2.1daf1e80.chunk.js",
-    "static/css/main.04e5d31d.chunk.css",
-    "static/js/main.3cb34022.chunk.js"
+    "static/js/2.9299f61a.chunk.js",
+    "static/css/main.fcbefa74.chunk.css",
+    "static/js/main.bca57511.chunk.js"
   ]
 }
