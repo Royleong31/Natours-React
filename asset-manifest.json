@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Natours-React/static/css/main.04e5d31d.chunk.css",
+    "main.js": "/Natours-React/static/js/main.3cb34022.chunk.js",
+    "main.js.map": "/Natours-React/static/js/main.3cb34022.chunk.js.map",
+    "runtime-main.js": "/Natours-React/static/js/runtime-main.5e108c41.js",
+    "runtime-main.js.map": "/Natours-React/static/js/runtime-main.5e108c41.js.map",
+    "static/js/2.1daf1e80.chunk.js": "/Natours-React/static/js/2.1daf1e80.chunk.js",
+    "static/js/2.1daf1e80.chunk.js.map": "/Natours-React/static/js/2.1daf1e80.chunk.js.map",
+    "index.html": "/Natours-React/index.html",
+    "static/css/main.04e5d31d.chunk.css.map": "/Natours-React/static/css/main.04e5d31d.chunk.css.map",
+    "static/js/2.1daf1e80.chunk.js.LICENSE.txt": "/Natours-React/static/js/2.1daf1e80.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/Natours-React/static/media/hero.15e5f60e.jpg",
+    "static/media/logo-green-2x.76177450.png": "/Natours-React/static/media/logo-green-2x.76177450.png",
+    "static/media/logo-white.6c89a3f0.png": "/Natours-React/static/media/logo-white.6c89a3f0.png",
+    "static/media/nat-1-large.a1c1cbdb.jpg": "/Natours-React/static/media/nat-1-large.a1c1cbdb.jpg",
+    "static/media/Booking.scss": "/Natours-React/static/media/nat-10.66b4c17a.jpg",
+    "static/media/nat-2-large.cbc0cd9f.jpg": "/Natours-React/static/media/nat-2-large.cbc0cd9f.jpg",
+    "static/media/nat-3-large.da53b7a0.jpg": "/Natours-React/static/media/nat-3-large.da53b7a0.jpg",
+    "static/media/Features.scss": "/Natours-React/static/media/nat-4.114dc940.jpg",
+    "static/media/Tours.scss": "/Natours-React/static/media/nat-7.167e44e4.jpg",
+    "static/media/nat-8.10678031.jpg": "/Natours-React/static/media/nat-8.10678031.jpg",
+    "static/media/nat-9.b7a3e52c.jpg": "/Natours-React/static/media/nat-9.b7a3e52c.jpg",
+    "static/media/video.697d9c04.mp4": "/Natours-React/static/media/video.697d9c04.mp4",
+    "static/media/video.defbf1bb.webm": "/Natours-React/static/media/video.defbf1bb.webm"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e108c41.js",
+    "static/js/2.1daf1e80.chunk.js",
+    "static/css/main.04e5d31d.chunk.css",
+    "static/js/main.3cb34022.chunk.js"
+  ]
+}
