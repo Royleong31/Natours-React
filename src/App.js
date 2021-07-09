@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-import "./App.scss";
 import Layout from "./components/Layout/Layout";
 import About from "./components/About/About";
 import Features from "./components/Features/Features";
